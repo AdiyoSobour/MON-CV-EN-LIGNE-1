@@ -1,0 +1,48 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0px;
+    background-color: aquamarine;
+}
+header, section, footer {
+    margin: 20px;
+    padding: 20px;
+    background-color: beige;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha)
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em ;    
+}
+header p { 
+    margin: 5px 0 0;
+    font-size: 1.2em;
+    color: #817d7d;
+}
+
+h2 {
+    border-bottom: 2px solid #f7f1a3;
+    padding-bottom: 10px;
+ }
+
+.job, .school { 
+    margin-bottom: 15px;
+}
+
+    ul {
+         list-style-type: none;
+         padding: 0;
+    }
+    
+li {
+    background: #eee;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+footer{
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+}
